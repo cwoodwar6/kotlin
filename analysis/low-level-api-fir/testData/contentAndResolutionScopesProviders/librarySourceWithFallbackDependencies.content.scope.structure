@@ -6,7 +6,7 @@ IntersectionScope
         FileScope: b.class
     UnionScope
         FileScope: x.class
-        ParentTraversalLibrarySearchScope
+        SingleJarParentTraversalLibrarySearchScope
 
 Module MAIN:
 FilesScope

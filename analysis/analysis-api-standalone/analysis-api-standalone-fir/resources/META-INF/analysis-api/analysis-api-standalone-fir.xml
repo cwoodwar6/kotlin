@@ -23,6 +23,10 @@
   </extensions>
 
   <extensions defaultExtensionNs="org.jetbrains.kotlin">
+    <kotlinGlobalSearchScopeMergeStrategy
+        implementation="org.jetbrains.kotlin.analysis.api.standalone.fir.projectStructure.KotlinStandaloneLibraryScopeMergeStrategy"
+    />
+
     <psiReferenceProvider implementation="org.jetbrains.kotlin.analysis.api.standalone.fir.references.KaBaseForLoopInReference$Provider"/>
     <psiReferenceProvider implementation="org.jetbrains.kotlin.analysis.api.standalone.fir.references.KaBaseInvokeFunctionReference$Provider"/>
     <psiReferenceProvider implementation="org.jetbrains.kotlin.analysis.api.standalone.fir.references.KaBasePropertyDelegationMethodsReference$Provider"/>

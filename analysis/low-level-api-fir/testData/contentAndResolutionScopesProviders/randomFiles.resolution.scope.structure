@@ -5,11 +5,7 @@ UnionScope
     FileScope: x.kt
     IntersectionScope
         KaFirJvmLibraryRestrictionScope
-        UnionScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+        MultiJarParentTraversalLibrarySearchScope
     IntersectionScope
         NotScope
             FileScope: b.kt
@@ -34,11 +30,7 @@ UnionScope
     FileScope: x.kt
     IntersectionScope
         KaFirJvmLibraryRestrictionScope
-        UnionScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+        MultiJarParentTraversalLibrarySearchScope
     KotlinBuiltinsFileScope
         FilesScope
             files:

@@ -3,12 +3,7 @@ Module LIBRARY:
 UnionScope
     IntersectionScope
         KaFirJvmLibraryRestrictionScope
-        UnionScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+        MultiJarParentTraversalLibrarySearchScope
     KotlinBuiltinsFileScope
         FilesScope
             files:
@@ -26,12 +21,7 @@ UnionScope
     FileScope: main.kt
     IntersectionScope
         KaFirJvmLibraryRestrictionScope
-        UnionScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+        MultiJarParentTraversalLibrarySearchScope
     KotlinBuiltinsFileScope
         FilesScope
             files:

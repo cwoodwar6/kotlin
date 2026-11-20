@@ -4,11 +4,7 @@ UnionScope
     FileScope: module_MAIN_empty.kt
     IntersectionScope
         KaFirJvmLibraryRestrictionScope
-        UnionScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+        MultiJarParentTraversalLibrarySearchScope
     KotlinBuiltinsFileScope
         FilesScope
             files:

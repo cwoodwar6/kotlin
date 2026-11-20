@@ -9,11 +9,8 @@ UnionScope
                     FileScope: b.class
                 UnionScope
                     FileScope: x.class
-                    ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+                    SingleJarParentTraversalLibrarySearchScope
+            MultiJarParentTraversalLibrarySearchScope
     KotlinBuiltinsFileScope
         FilesScope
             files:
@@ -37,11 +34,8 @@ UnionScope
                     FileScope: b.class
                 UnionScope
                     FileScope: x.class
-                    ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
-            ParentTraversalLibrarySearchScope
+                    SingleJarParentTraversalLibrarySearchScope
+            MultiJarParentTraversalLibrarySearchScope
     KotlinBuiltinsFileScope
         FilesScope
             files:
